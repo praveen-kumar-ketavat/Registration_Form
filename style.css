@@ -12,13 +12,12 @@
     color:white;
     background-image: url("./images/background.jpg");
     background-size: cover;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
 }
 .form{
     height:525px;
     width:490px;
     border:3px white solid;
-    /* margin-left:900px; */
     border-radius: 5px;
     background-color:rgba(128,128,128,.25);
     backdrop-filter: blur(30px);
@@ -52,7 +51,8 @@
 
 }
 #conf{
-    margin:15px 0 10px 20px;
+    margin:20px 0 10px 20px;
+    display:inline;
 }
 
 #first, #last{
@@ -66,7 +66,6 @@
     margin:25px 0 10px 0;
 }
 .check{
-    font-size:15px;
     margin:20px;
 }
 .sub{
@@ -87,4 +86,45 @@
 
 #chbox{
     cursor: pointer;
+}
+
+.asterisk{
+    font-size: 15px;
+}
+
+#msg{
+    margin-left: 20px;
+    font-size:12px;
+}
+
+.correct{
+    visibility: hidden;
+}
+
+.success{
+    position: fixed;
+    height:400px;
+    width:400px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.suc-msg{
+    align-items: center;
+    font-size:40px;
+}
+.suc-pic{
+    height:90%;
+    width:90%;
+    background-image: url("./images/success.gif");
+    background-size: cover;
+}
+
+.on {
+    visibility: visible;
+    opacity: 100%;
+  }
+
+.off {
+    visibility: hidden;
+    opacity: 0;
 }
