@@ -138,4 +138,12 @@
         height:40px;
         margin-top:5px;
     }
+
+    .success{
+        height:250px;
+        width:250px;
+    }
+    .suc-msg{
+        font-size:30px;
+    }
 }
